@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Courses preview">
+  <defs>
+    <pattern id="cgrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1A1A1A" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="#F4EFE6"/>
+  <rect width="1200" height="720" fill="url(#cgrid)"/>
+
+  <!-- Page title -->
+  <g transform="translate(60,60)">
+    <text font-family="'Fraunces',serif" font-weight="700" font-size="44" fill="#1A1A1A">课程中心</text>
+    <text y="30" font-family="'Inter',sans-serif" font-size="14" fill="#1A1A1A" opacity="0.6">12 门分级课程 · 3 语种 · CEFR / JLPT / TOPIK 全覆盖</text>
+  </g>
+
+  <!-- Filter chips -->
+  <g transform="translate(60,128)">
+    <rect x="0" y="0" width="68" height="32" fill="#1A1A1A"/>
+    <text x="34" y="21" font-family="'Inter',sans-serif" font-size="12" font-weight="600" fill="#FFD56B" text-anchor="middle">全部</text>
+    <rect x="78" y="0" width="68" height="32" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="112" y="21" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">英语</text>
+    <rect x="156" y="0" width="68" height="32" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="190" y="21" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">日语</text>
+    <rect x="234" y="0" width="68" height="32" fill="#C8E6D4" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="268" y="21" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">韩语</text>
+    <rect x="316" y="0" width="100" height="32" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="366" y="21" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">初级 A1-N5</text>
+    <rect x="426" y="0" width="100" height="32" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="476" y="21" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">中级 B1-N3</text>
+  </g>
+
+  <!-- Course card 1: English A1 -->
+  <g transform="translate(60,200)">
+    <rect x="0" y="0" width="340" height="220" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#1A1A1A"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFD56B" letter-spacing="2">EN · A1 BEGINNER</text>
+    <circle cx="316" cy="20" r="6" fill="#6CD0A4"/>
+    <text x="16" y="84" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#1A1A1A">New Horizon English</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.6">从零开始 · 24 课时 · 12 模块</text>
+    <text x="16" y="138" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.7">12 单元 · 320 核心词 · 60 句型</text>
+    <!-- progress -->
+    <rect x="16" y="160" width="308" height="8" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="16" y="160" width="216" height="8" fill="#C8484E"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A">70% · 18/24 课时</text>
+    <rect x="252" y="180" width="72" height="22" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" text-anchor="middle">继续</text>
+  </g>
+
+  <!-- Course card 2: English B2 -->
+  <g transform="translate(420,200)">
+    <rect x="0" y="0" width="340" height="220" fill="#5B8DEF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#1A1A1A"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFD56B" letter-spacing="2">EN · B2 UPPER-INT.</text>
+    <text x="16" y="84" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#FFFFFF">Fluent Spoken English</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">流利口语训练 · 18 课时</text>
+    <text x="16" y="138" font-family="'Inter',sans-serif" font-size="12" fill="#FFFFFF" opacity="0.85">学术 / 商务口语 · 影子跟读</text>
+    <rect x="16" y="160" width="308" height="8" fill="#FFFFFF"/>
+    <rect x="16" y="160" width="92" height="8" fill="#FFD56B"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#FFFFFF">30% · 5/18 课时</text>
+    <rect x="252" y="180" width="72" height="22" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" text-anchor="middle">开始</text>
+  </g>
+
+  <!-- Course card 3: Japanese N5 -->
+  <g transform="translate(780,200)">
+    <rect x="0" y="0" width="340" height="220" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#C8484E"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFFFFF" letter-spacing="2">JA · JLPT N5</text>
+    <circle cx="316" cy="20" r="6" fill="#6CD0A4"/>
+    <text x="16" y="84" font-family="'Noto Serif JP',serif" font-weight="700" font-size="22" fill="#1A1A1A">はじめての日本語</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.7">日语入门 · 20 课时</text>
+    <text x="16" y="138" font-family="'Noto Serif JP',serif" font-size="13" fill="#1A1A1A" opacity="0.7">五十音 · 基础语法 · 日常会话</text>
+    <rect x="16" y="160" width="308" height="8" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="16" y="160" width="154" height="8" fill="#C8484E"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A">50% · 10/20 课时</text>
+    <rect x="252" y="180" width="72" height="22" fill="#1A1A1A"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFD56B" text-anchor="middle">继续</text>
+  </g>
+
+  <!-- Course card 4: Japanese N1 -->
+  <g transform="translate(60,440)">
+    <rect x="0" y="0" width="340" height="220" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#1A1A1A"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFD56B" letter-spacing="2">JA · JLPT N1</text>
+    <text x="16" y="84" font-family="'Noto Serif JP',serif" font-weight="700" font-size="22" fill="#1A1A1A">上級日本語マスター</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.6">高级日语 · 16 课时</text>
+    <text x="16" y="138" font-family="'Noto Serif JP',serif" font-size="13" fill="#1A1A1A" opacity="0.7">新闻 / 文学 / 商务谈判</text>
+    <rect x="16" y="160" width="308" height="8" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="16" y="160" width="46" height="8" fill="#C8484E"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A">15% · 2/16 课时</text>
+    <rect x="252" y="180" width="72" height="22" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" text-anchor="middle">开始</text>
+  </g>
+
+  <!-- Course card 5: Korean TOPIK 2 -->
+  <g transform="translate(420,440)">
+    <rect x="0" y="0" width="340" height="220" fill="#C8E6D4" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#3A7D5C"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFFFFF" letter-spacing="2">KO · TOPIK 2급</text>
+    <circle cx="316" cy="20" r="6" fill="#FFD56B"/>
+    <text x="16" y="84" font-family="'Noto Serif KR',serif" font-weight="700" font-size="22" fill="#1A1A1A">기초 한국어</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.7">基础韩语 · 22 课时</text>
+    <text x="16" y="138" font-family="'Noto Serif KR',serif" font-size="13" fill="#1A1A1A" opacity="0.7">韩字 · 语法 · 自我介绍</text>
+    <rect x="16" y="160" width="308" height="8" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="16" y="160" width="62" height="8" fill="#3A7D5C"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A">20% · 4/22 课时</text>
+    <rect x="252" y="180" width="72" height="22" fill="#1A1A1A"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFD56B" text-anchor="middle">继续</text>
+  </g>
+
+  <!-- Course card 6: Korean TOPIK 5 -->
+  <g transform="translate(780,440)">
+    <rect x="0" y="0" width="340" height="220" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="340" height="40" fill="#1A1A1A"/>
+    <text x="16" y="26" font-family="'Inter',sans-serif" font-weight="700" font-size="13" fill="#FFD56B" letter-spacing="2">KO · TOPIK 5급</text>
+    <text x="16" y="84" font-family="'Noto Serif KR',serif" font-weight="700" font-size="22" fill="#1A1A1A">고급 한국어</text>
+    <text x="16" y="106" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.6">高级韩语 · 14 课时</text>
+    <text x="16" y="138" font-family="'Noto Serif KR',serif" font-size="13" fill="#1A1A1A" opacity="0.7">时事 / 文学 / 商务</text>
+    <rect x="16" y="160" width="308" height="8" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+    <rect x="16" y="160" width="0" height="8" fill="#3A7D5C"/>
+    <text x="16" y="194" font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A">0% · 未开始</text>
+    <rect x="252" y="180" width="72" height="22" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+    <text x="288" y="195" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" text-anchor="middle">开始</text>
+  </g>
+</svg>

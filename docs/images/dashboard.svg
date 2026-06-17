@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Dashboard preview">
+  <defs>
+    <pattern id="grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1A1A1A" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Browser chrome -->
+  <rect width="1200" height="720" fill="#F4EFE6"/>
+  <rect width="1200" height="44" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+  <circle cx="22" cy="22" r="6" fill="#C8484E"/>
+  <circle cx="44" cy="22" r="6" fill="#FFD56B"/>
+  <circle cx="66" cy="22" r="6" fill="#6CD0A4"/>
+  <rect x="100" y="12" width="500" height="20" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="1"/>
+  <text x="116" y="26" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.6">linguaverse.app/dashboard</text>
+
+  <rect width="1200" height="720" fill="url(#grid)" transform="translate(0,44)"/>
+
+  <!-- Sidebar -->
+  <g transform="translate(0,44)">
+    <rect x="0" y="0" width="220" height="676" fill="#1A1A1A"/>
+    <text x="24" y="48" font-family="'Fraunces',serif" font-weight="900" font-style="italic" font-size="24" fill="#FFD56B">Lingua</text>
+    <text x="100" y="48" font-family="'Fraunces',serif" font-weight="900" font-size="24" fill="#FFFFFF">Verse</text>
+    <g font-family="'Inter',sans-serif" font-size="13" fill="#FFFFFF">
+      <text x="24" y="100" opacity="0.5" letter-spacing="2" font-size="11">MENU</text>
+      <g transform="translate(24,124)">
+        <rect x="0" y="0" width="172" height="34" fill="#FFD56B"/>
+        <text x="14" y="22" font-weight="700" fill="#1A1A1A">仪表盘 Dashboard</text>
+      </g>
+      <text x="24" y="180" opacity="0.85">课程 Courses</text>
+      <text x="24" y="214" opacity="0.85">学习 Learn</text>
+      <text x="24" y="248" opacity="0.85">推荐 Recommend</text>
+      <text x="24" y="282" opacity="0.85">社区 Community</text>
+      <text x="24" y="316" opacity="0.85">成就 Achievements</text>
+    </g>
+    <g transform="translate(24,640)">
+      <rect x="0" y="0" width="172" height="24" fill="#3A7D5C"/>
+      <text x="14" y="16" font-family="'Inter',sans-serif" font-size="11" fill="#FFFFFF">● 学习中 · TOPIK 4</text>
+    </g>
+  </g>
+
+  <!-- Main content -->
+  <g transform="translate(244,72)">
+    <text font-family="'Fraunces',serif" font-weight="700" font-size="32" fill="#1A1A1A">学习仪表盘</text>
+    <text x="0" y="28" font-family="'Inter',sans-serif" font-size="13" fill="#1A1A1A" opacity="0.6">Hi, Alex · 这是你过去 30 天的学习画像</text>
+
+    <!-- Stat cards row -->
+    <g transform="translate(0,52)">
+      <g>
+        <rect x="0" y="0" width="220" height="86" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+        <text x="16" y="26" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5" letter-spacing="1">学习时长</text>
+        <text x="16" y="60" font-family="'Fraunces',serif" font-weight="700" font-size="32" fill="#1A1A1A">42h</text>
+        <text x="100" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#3A7D5C" font-weight="600">+18%</text>
+      </g>
+      <g transform="translate(232,0)">
+        <rect x="0" y="0" width="220" height="86" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="2"/>
+        <text x="16" y="26" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5" letter-spacing="1">已学单词</text>
+        <text x="16" y="60" font-family="'Fraunces',serif" font-weight="700" font-size="32" fill="#1A1A1A">1,284</text>
+        <text x="142" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#3A7D5C" font-weight="600">+312</text>
+      </g>
+      <g transform="translate(464,0)">
+        <rect x="0" y="0" width="220" height="86" fill="#C8E6D4" stroke="#1A1A1A" stroke-width="2"/>
+        <text x="16" y="26" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5" letter-spacing="1">连续打卡</text>
+        <text x="16" y="60" font-family="'Fraunces',serif" font-weight="700" font-size="32" fill="#1A1A1A">27</text>
+        <text x="78" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.55">天 🔥</text>
+      </g>
+      <g transform="translate(696,0)">
+        <rect x="0" y="0" width="220" height="86" fill="#1A1A1A"/>
+        <text x="16" y="26" font-family="'Inter',sans-serif" font-size="11" fill="#FFD56B" letter-spacing="1">徽章</text>
+        <text x="16" y="60" font-family="'Fraunces',serif" font-weight="700" font-size="32" fill="#FFFFFF">8/12</text>
+        <text x="120" y="60" font-family="'Inter',sans-serif" font-size="12" fill="#FFD56B" font-weight="600">+2 new</text>
+      </g>
+    </g>
+
+    <!-- Radar chart card -->
+    <g transform="translate(0,160)">
+      <rect x="0" y="0" width="460" height="280" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="32" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#1A1A1A">6 维能力雷达</text>
+      <text x="20" y="50" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5">听说读写 · 词汇 · 语法</text>
+
+      <!-- Radar grid -->
+      <g transform="translate(230,170)">
+        <g fill="none" stroke="#1A1A1A" stroke-opacity="0.15" stroke-width="1">
+          <polygon points="0,-110 95,-55 95,55 0,110 -95,55 -95,-55"/>
+          <polygon points="0,-82 71,-41 71,41 0,82 -71,41 -71,-41"/>
+          <polygon points="0,-55 48,-28 48,28 0,55 -48,28 -48,-28"/>
+          <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14"/>
+        </g>
+        <g stroke="#1A1A1A" stroke-opacity="0.25" stroke-width="1">
+          <line x1="0" y1="0" x2="0" y2="-110"/>
+          <line x1="0" y1="0" x2="95" y2="-55"/>
+          <line x1="0" y1="0" x2="95" y2="55"/>
+          <line x1="0" y1="0" x2="0" y2="110"/>
+          <line x1="0" y1="0" x2="-95" y2="55"/>
+          <line x1="0" y1="0" x2="-95" y2="-55"/>
+        </g>
+        <!-- Data polygon -->
+        <polygon points="0,-88 76,-44 80,46 0,75 -64,37 -68,-39" fill="#C8484E" fill-opacity="0.35" stroke="#C8484E" stroke-width="2.5"/>
+        <!-- Dots -->
+        <g fill="#C8484E">
+          <circle cx="0" cy="-88" r="4"/>
+          <circle cx="76" cy="-44" r="4"/>
+          <circle cx="80" cy="46" r="4"/>
+          <circle cx="0" cy="75" r="4"/>
+          <circle cx="-64" cy="37" r="4"/>
+          <circle cx="-68" cy="-39" r="4"/>
+        </g>
+        <!-- Labels -->
+        <g font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">
+          <text x="0" y="-122">听力</text>
+          <text x="110" y="-50">口语</text>
+          <text x="110" y="60">阅读</text>
+          <text x="0" y="132">写作</text>
+          <text x="-110" y="60">词汇</text>
+          <text x="-110" y="-50">语法</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Bar chart card -->
+    <g transform="translate(472,160)">
+      <rect x="0" y="0" width="444" height="280" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="32" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#1A1A1A">本周各模块时长</text>
+      <text x="20" y="50" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5">单位：分钟</text>
+
+      <g transform="translate(40,80)">
+        <!-- axis -->
+        <line x1="0" y1="180" x2="380" y2="180" stroke="#1A1A1A" stroke-width="1.5"/>
+        <g font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.6" text-anchor="middle">
+          <text x="30" y="200">单词</text>
+          <text x="100" y="200">语法</text>
+          <text x="170" y="200">口语</text>
+          <text x="240" y="200">听力</text>
+          <text x="310" y="200">阅读</text>
+          <text x="370" y="200">写作</text>
+        </g>
+        <!-- bars -->
+        <rect x="14" y="40" width="32" height="140" fill="#C8484E"/>
+        <rect x="84" y="80" width="32" height="100" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+        <rect x="154" y="20" width="32" height="160" fill="#3A7D5C"/>
+        <rect x="224" y="60" width="32" height="120" fill="#5B8DEF"/>
+        <rect x="294" y="100" width="32" height="80" fill="#9B5DE5"/>
+        <rect x="354" y="120" width="16" height="60" fill="#1A1A1A"/>
+        <!-- values -->
+        <g font-family="'Inter',sans-serif" font-size="11" font-weight="600" fill="#1A1A1A" text-anchor="middle">
+          <text x="30" y="32">82</text>
+          <text x="100" y="72">58</text>
+          <text x="170" y="12">94</text>
+          <text x="240" y="52">71</text>
+          <text x="310" y="92">45</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Heatmap card -->
+    <g transform="translate(0,452)">
+      <rect x="0" y="0" width="916" height="220" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="32" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#1A1A1A">最近 8 周学习热力</text>
+      <text x="20" y="50" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.5">越深 = 当日学习时长越长</text>
+
+      <g transform="translate(40,82)">
+        <!-- 8 weeks × 7 days -->
+        <g id="week">
+          <rect x="0" y="0" width="22" height="22" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+        </g>
+        <!-- Generate 56 cells with varying intensity -->
+        <g>
+          <!-- Week 1 -->
+          <rect x="0" y="0" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="24" y="0" width="22" height="22" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="48" y="0" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="72" y="0" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="96" y="0" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="120" y="0" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="144" y="0" width="22" height="22" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+          <!-- Week 2 -->
+          <rect x="0" y="24" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="24" y="24" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="48" y="24" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="72" y="24" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="96" y="24" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="120" y="24" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="144" y="24" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <!-- Week 3 -->
+          <rect x="0" y="48" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="24" y="48" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="48" y="48" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="72" y="48" width="22" height="22" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="96" y="48" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="120" y="48" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="144" y="48" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <!-- Week 4 -->
+          <rect x="0" y="72" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="24" y="72" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="48" y="72" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="72" y="72" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="96" y="72" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="120" y="72" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="144" y="72" width="22" height="22" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+          <!-- Week 5 -->
+          <rect x="0" y="96" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="24" y="96" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="48" y="96" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="72" y="96" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="96" y="96" width="22" height="22" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="120" y="96" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="144" y="96" width="22" height="22" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+        </g>
+        <!-- day labels -->
+        <g font-family="'Inter',sans-serif" font-size="9" fill="#1A1A1A" opacity="0.55" text-anchor="end">
+          <text x="-6" y="14">一</text>
+          <text x="-6" y="38">二</text>
+          <text x="-6" y="62">三</text>
+          <text x="-6" y="86">四</text>
+          <text x="-6" y="110">五</text>
+        </g>
+        <!-- legend -->
+        <g transform="translate(540,30)">
+          <text x="0" y="0" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.6">少</text>
+          <rect x="22" y="-10" width="14" height="14" fill="#F4EFE6" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="40" y="-10" width="14" height="14" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="0.5"/>
+          <rect x="58" y="-10" width="14" height="14" fill="#C8484E" stroke="#1A1A1A" stroke-width="0.5"/>
+          <text x="80" y="0" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.6">多</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

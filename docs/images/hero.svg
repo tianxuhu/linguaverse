@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 720" width="1600" height="720" role="img" aria-label="LinguaVerse Hero Banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF7EC"/>
+      <stop offset="0.55" stop-color="#FFE8D6"/>
+      <stop offset="1" stop-color="#F2D7B6"/>
+    </linearGradient>
+    <linearGradient id="inkStripe" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1A1A1A"/>
+      <stop offset="1" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#1A1A1A" opacity="0.15"/>
+    </pattern>
+    <filter id="hard" x="-10%" y="-10%" width="120%" height="120%">
+      <feOffset dx="6" dy="6"/>
+      <feFlood flood-color="#1A1A1A"/>
+      <feComposite in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="720" fill="url(#bg)"/>
+  <rect width="1600" height="720" fill="url(#dots)"/>
+
+  <!-- Top ribbon -->
+  <g transform="translate(80,60)">
+    <rect x="0" y="0" width="280" height="46" fill="url(#inkStripe)"/>
+    <text x="22" y="31" font-family="'Inter',sans-serif" font-weight="700" font-size="18" fill="#FFD56B" letter-spacing="2">LINGUAVERSE · 语元</text>
+  </g>
+
+  <!-- Right status pill -->
+  <g transform="translate(1280,60)">
+    <rect x="0" y="0" width="240" height="46" fill="#1A1A1A"/>
+    <circle cx="22" cy="23" r="6" fill="#6CD0A4"/>
+    <text x="38" y="29" font-family="'Inter',sans-serif" font-weight="600" font-size="14" fill="#FFFFFF" letter-spacing="1">V1.0 · BUILT 2026-06-17</text>
+  </g>
+
+  <!-- Main wordmark -->
+  <g transform="translate(80,150)">
+    <text font-family="'Fraunces',serif" font-weight="900" font-size="148" fill="#1A1A1A" letter-spacing="-3">Lingua</text>
+    <text x="475" font-family="'Fraunces',serif" font-weight="900" font-style="italic" font-size="148" fill="#C8484E" letter-spacing="-3">Verse</text>
+    <text x="940" font-family="'Noto Serif SC',serif" font-weight="700" font-size="60" fill="#1A1A1A" opacity="0.6">·语元·</text>
+  </g>
+
+  <text x="80" y="340" font-family="'Inter',sans-serif" font-weight="500" font-size="22" fill="#1A1A1A" opacity="0.7" letter-spacing="3">A MULTILINGUAL LEARNING UNIVERSE · 多语种在线学习平台</text>
+
+  <!-- Sub copy -->
+  <g transform="translate(80,380)">
+    <text font-family="'Fraunces',serif" font-size="28" fill="#1A1A1A">English · 日本語 · 한국어</text>
+  </g>
+
+  <!-- Stat strip -->
+  <g transform="translate(80,440)">
+    <g>
+      <rect x="0" y="0" width="200" height="92" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="42" font-family="'Fraunces',serif" font-size="44" font-weight="700" fill="#1A1A1A">3</text>
+      <text x="60" y="42" font-family="'Inter',sans-serif" font-size="13" fill="#1A1A1A" opacity="0.65">LANGUAGES</text>
+      <text x="20" y="74" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.55" letter-spacing="1">英 / 日 / 韩</text>
+    </g>
+    <g transform="translate(220,0)">
+      <rect x="0" y="0" width="200" height="92" fill="#1A1A1A"/>
+      <text x="20" y="42" font-family="'Fraunces',serif" font-size="44" font-weight="700" fill="#FFD56B">12</text>
+      <text x="80" y="42" font-family="'Inter',sans-serif" font-size="13" fill="#FFFFFF" opacity="0.75">COURSES</text>
+      <text x="20" y="74" font-family="'Inter',sans-serif" font-size="12" fill="#FFFFFF" opacity="0.55" letter-spacing="1">A1-C2 / N5-N1 / 1-6급</text>
+    </g>
+    <g transform="translate(440,0)">
+      <rect x="0" y="0" width="200" height="92" fill="#6CD0A4" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="42" font-family="'Fraunces',serif" font-size="44" font-weight="700" fill="#1A1A1A">4</text>
+      <text x="58" y="42" font-family="'Inter',sans-serif" font-size="13" fill="#1A1A1A" opacity="0.65">MODULES</text>
+      <text x="20" y="74" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.55" letter-spacing="1">词 / 法 / 音 / 听</text>
+    </g>
+    <g transform="translate(660,0)">
+      <rect x="0" y="0" width="200" height="92" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="20" y="42" font-family="'Fraunces',serif" font-size="44" font-weight="700" fill="#1A1A1A">12</text>
+      <text x="80" y="42" font-family="'Inter',sans-serif" font-size="13" fill="#1A1A1A" opacity="0.65">BADGES</text>
+      <text x="20" y="74" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.55" letter-spacing="1">徽章激励系统</text>
+    </g>
+  </g>
+
+  <!-- Language cards -->
+  <g transform="translate(1000,150)">
+    <!-- English card -->
+    <g>
+      <rect x="0" y="0" width="500" height="120" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+      <rect x="0" y="0" width="500" height="32" fill="#1A1A1A"/>
+      <text x="20" y="22" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" letter-spacing="2">EN · ENGLISH</text>
+      <text x="20" y="68" font-family="'Fraunces',serif" font-weight="700" font-size="34" fill="#1A1A1A">Hello, world.</text>
+      <text x="20" y="100" font-family="'Inter',sans-serif" font-size="14" fill="#1A1A1A" opacity="0.7">CEFR A1 — C2 · 4 levels · 4 courses</text>
+    </g>
+    <!-- Japanese card -->
+    <g transform="translate(0,150)">
+      <rect x="0" y="0" width="500" height="120" fill="#FFD0DC" stroke="#1A1A1A" stroke-width="2"/>
+      <rect x="0" y="0" width="500" height="32" fill="#C8484E"/>
+      <text x="20" y="22" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" letter-spacing="2">JA · 日本語</text>
+      <text x="20" y="76" font-family="'Noto Serif JP',serif" font-weight="700" font-size="38" fill="#1A1A1A">こんにちは、世界。</text>
+      <text x="20" y="104" font-family="'Inter',sans-serif" font-size="14" fill="#1A1A1A" opacity="0.7">JLPT N5 — N1 · 5 levels · 4 courses</text>
+    </g>
+    <!-- Korean card -->
+    <g transform="translate(0,300)">
+      <rect x="0" y="0" width="500" height="120" fill="#C8E6D4" stroke="#1A1A1A" stroke-width="2"/>
+      <rect x="0" y="0" width="500" height="32" fill="#3A7D5C"/>
+      <text x="20" y="22" font-family="'Inter',sans-serif" font-weight="700" font-size="14" fill="#FFFFFF" letter-spacing="2">KO · 한국어</text>
+      <text x="20" y="76" font-family="'Noto Serif KR',serif" font-weight="700" font-size="34" fill="#1A1A1A">안녕하세요, 세계.</text>
+      <text x="20" y="104" font-family="'Inter',sans-serif" font-size="14" fill="#1A1A1A" opacity="0.7">TOPIK 1 — 6급 · 6 levels · 4 courses</text>
+    </g>
+  </g>
+
+  <!-- Bottom marquee -->
+  <g transform="translate(0,660)">
+    <rect x="0" y="0" width="1600" height="60" fill="#1A1A1A"/>
+    <text x="40" y="38" font-family="'Inter',sans-serif" font-weight="600" font-size="18" fill="#FFD56B" letter-spacing="6">REACT 18 · TYPESCRIPT 5.6 · VITE 5.4 · ZUSTAND 4 · TAILWIND 3.4 · RECHARTS 2.12 · LUCIDE</text>
+  </g>
+</svg>

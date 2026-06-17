@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="1200" height="720" role="img" aria-label="Learning modules preview">
+  <defs>
+    <pattern id="mgrid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#1A1A1A" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="720" fill="#F4EFE6"/>
+  <rect width="1200" height="720" fill="url(#mgrid)"/>
+
+  <!-- title -->
+  <g transform="translate(60,60)">
+    <text font-family="'Fraunces',serif" font-weight="700" font-size="44" fill="#1A1A1A">互动学习模块</text>
+    <text y="30" font-family="'Inter',sans-serif" font-size="14" fill="#1A1A1A" opacity="0.6">Vocabulary · Grammar · Speaking · Listening</text>
+  </g>
+
+  <!-- Vocab card -->
+  <g transform="translate(60,140)">
+    <rect x="0" y="0" width="270" height="380" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="270" height="56" fill="#C8484E"/>
+    <text x="20" y="36" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#FFFFFF">单词记忆</text>
+    <text x="20" y="52" font-family="'Inter',sans-serif" font-size="11" fill="#FFFFFF" opacity="0.85">VOCABULARY · FLASHCARD</text>
+
+    <!-- Flashcard mock -->
+    <g transform="translate(135,200)">
+      <rect x="-90" y="-70" width="180" height="140" fill="#FFD56B" stroke="#1A1A1A" stroke-width="2"/>
+      <text x="0" y="-32" font-family="'Noto Serif JP',serif" font-weight="700" font-size="38" fill="#1A1A1A" text-anchor="middle">学 ぶ</text>
+      <text x="0" y="-4" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" opacity="0.6" text-anchor="middle">まな.ぶ · manabu</text>
+      <line x1="-60" y1="14" x2="60" y2="14" stroke="#1A1A1A" stroke-width="1"/>
+      <text x="0" y="34" font-family="'Fraunces',serif" font-size="14" font-style="italic" fill="#1A1A1A" text-anchor="middle">to learn / 学习</text>
+      <text x="0" y="54" font-family="'Inter',sans-serif" font-size="10" fill="#1A1A1A" opacity="0.55" text-anchor="middle">tap to flip · 点击翻转</text>
+    </g>
+
+    <g transform="translate(20,300)" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A">
+      <text>28 核心词 · 拼写测验 · 间隔重复</text>
+      <g transform="translate(0,16)">
+        <rect x="0" y="0" width="14" height="14" fill="#F4EFE6" stroke="#1A1A1A"/>
+        <text x="20" y="11">认识 ✓</text>
+        <rect x="100" y="0" width="14" height="14" fill="#F4EFE6" stroke="#1A1A1A"/>
+        <text x="120" y="11">模糊 ?</text>
+        <rect x="180" y="0" width="14" height="14" fill="#F4EFE6" stroke="#1A1A1A"/>
+        <text x="200" y="11">不认识</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Grammar card -->
+  <g transform="translate(345,140)">
+    <rect x="0" y="0" width="270" height="380" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="270" height="56" fill="#5B8DEF"/>
+    <text x="20" y="36" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#FFFFFF">语法练习</text>
+    <text x="20" y="52" font-family="'Inter',sans-serif" font-size="11" fill="#FFFFFF" opacity="0.85">GRAMMAR · MULTIPLE CHOICE</text>
+
+    <g transform="translate(20,90)">
+      <text font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" letter-spacing="2">Q 3 / 5</text>
+      <text x="0" y="32" font-family="'Fraunces',serif" font-size="18" fill="#1A1A1A">彼は毎日 ____ 勉強します。</text>
+
+      <g transform="translate(0,60)">
+        <rect x="0" y="0" width="230" height="38" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="14" y="24" font-family="'Noto Serif JP',serif" font-size="14" fill="#1A1A1A">A. 日本語を</text>
+      </g>
+      <g transform="translate(0,104)">
+        <rect x="0" y="0" width="230" height="38" fill="#6CD0A4" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="14" y="24" font-family="'Noto Serif JP',serif" font-size="14" fill="#1A1A1A" font-weight="700">B. 日本語で ✓</text>
+      </g>
+      <g transform="translate(0,148)">
+        <rect x="0" y="0" width="230" height="38" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="14" y="24" font-family="'Noto Serif JP',serif" font-size="14" fill="#1A1A1A">C. 日本語が</text>
+      </g>
+      <g transform="translate(0,192)">
+        <rect x="0" y="0" width="230" height="38" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="14" y="24" font-family="'Noto Serif JP',serif" font-size="14" fill="#1A1A1A">D. 日本語は</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Speaking card -->
+  <g transform="translate(630,140)">
+    <rect x="0" y="0" width="270" height="380" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="270" height="56" fill="#3A7D5C"/>
+    <text x="20" y="36" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#FFFFFF">口语跟读</text>
+    <text x="20" y="52" font-family="'Inter',sans-serif" font-size="11" fill="#FFFFFF" opacity="0.85">SPEAKING · SHADOWING</text>
+
+    <g transform="translate(20,90)">
+      <text font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" letter-spacing="2">SCORE 87 / 100</text>
+      <text x="0" y="32" font-family="'Fraunces',serif" font-size="15" fill="#1A1A1A">"Where is the nearest station?"</text>
+
+      <!-- waveform -->
+      <g transform="translate(0,60)">
+        <line x1="0" y1="20" x2="230" y2="20" stroke="#1A1A1A" stroke-opacity="0.2"/>
+        <g fill="#3A7D5C">
+          <rect x="0" y="10" width="3" height="20"/>
+          <rect x="6" y="6" width="3" height="28"/>
+          <rect x="12" y="2" width="3" height="36"/>
+          <rect x="18" y="8" width="3" height="24"/>
+          <rect x="24" y="14" width="3" height="12"/>
+          <rect x="30" y="6" width="3" height="28"/>
+          <rect x="36" y="0" width="3" height="40"/>
+          <rect x="42" y="4" width="3" height="32"/>
+          <rect x="48" y="10" width="3" height="20"/>
+          <rect x="54" y="14" width="3" height="12"/>
+          <rect x="60" y="8" width="3" height="24"/>
+          <rect x="66" y="2" width="3" height="36"/>
+          <rect x="72" y="6" width="3" height="28"/>
+          <rect x="78" y="12" width="3" height="16"/>
+          <rect x="84" y="4" width="3" height="32"/>
+          <rect x="90" y="0" width="3" height="40"/>
+          <rect x="96" y="6" width="3" height="28"/>
+          <rect x="102" y="10" width="3" height="20"/>
+          <rect x="108" y="14" width="3" height="12"/>
+          <rect x="114" y="8" width="3" height="24"/>
+          <rect x="120" y="2" width="3" height="36"/>
+          <rect x="126" y="6" width="3" height="28"/>
+          <rect x="132" y="12" width="3" height="16"/>
+          <rect x="138" y="4" width="3" height="32"/>
+          <rect x="144" y="0" width="3" height="40"/>
+          <rect x="150" y="6" width="3" height="28"/>
+          <rect x="156" y="14" width="3" height="12"/>
+          <rect x="162" y="8" width="3" height="24"/>
+          <rect x="168" y="2" width="3" height="36"/>
+          <rect x="174" y="10" width="3" height="20"/>
+          <rect x="180" y="6" width="3" height="28"/>
+          <rect x="186" y="14" width="3" height="12"/>
+          <rect x="192" y="4" width="3" height="32"/>
+          <rect x="198" y="0" width="3" height="40"/>
+          <rect x="204" y="10" width="3" height="20"/>
+          <rect x="210" y="6" width="3" height="28"/>
+          <rect x="216" y="12" width="3" height="16"/>
+          <rect x="222" y="8" width="3" height="24"/>
+        </g>
+      </g>
+
+      <g transform="translate(0,200)">
+        <circle cx="20" cy="20" r="20" fill="#3A7D5C"/>
+        <text x="20" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">▶</text>
+        <circle cx="80" cy="20" r="20" fill="#1A1A1A"/>
+        <text x="80" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFD56B" text-anchor="middle">●</text>
+        <rect x="120" y="0" width="110" height="40" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="175" y="25" font-family="'Inter',sans-serif" font-size="11" fill="#1A1A1A" text-anchor="middle">1.0x ▾</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Listening card -->
+  <g transform="translate(915,140)">
+    <rect x="0" y="0" width="225" height="380" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="2"/>
+    <rect x="0" y="0" width="225" height="56" fill="#9B5DE5"/>
+    <text x="20" y="36" font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#FFFFFF">听力训练</text>
+    <text x="20" y="52" font-family="'Inter',sans-serif" font-size="11" fill="#FFFFFF" opacity="0.85">LISTENING · DICTA.</text>
+
+    <g transform="translate(20,90)">
+      <text font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#1A1A1A" letter-spacing="2">DICTATION 4 / 6</text>
+      <text x="0" y="32" font-family="'Fraunces',serif" font-size="14" fill="#1A1A1A">听写下列句子：</text>
+
+      <g transform="translate(0,52)">
+        <rect x="0" y="0" width="185" height="40" fill="#FFD56B" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="10" y="26" font-family="'Inter',sans-serif" font-size="14" font-weight="600" fill="#1A1A1A">I ___ to the ___.</text>
+      </g>
+      <g transform="translate(0,100)">
+        <rect x="0" y="0" width="88" height="36" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="44" y="24" font-family="'Inter',sans-serif" font-size="13" fill="#1A1A1A" text-anchor="middle">w e n t</text>
+        <rect x="97" y="0" width="88" height="36" fill="#6CD0A4" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="141" y="24" font-family="'Inter',sans-serif" font-size="13" font-weight="700" fill="#1A1A1A" text-anchor="middle">s t o r e</text>
+      </g>
+      <g transform="translate(0,148)">
+        <rect x="0" y="0" width="185" height="36" fill="#1A1A1A"/>
+        <text x="92" y="24" font-family="'Inter',sans-serif" font-size="13" font-weight="700" fill="#FFD56B" text-anchor="middle">▶ 播放 / 1.25x</text>
+      </g>
+      <g transform="translate(0,196)">
+        <rect x="0" y="0" width="88" height="36" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="44" y="24" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">0.75x</text>
+        <rect x="97" y="0" width="88" height="36" fill="#FFFFFF" stroke="#1A1A1A" stroke-width="1.5"/>
+        <text x="141" y="24" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" text-anchor="middle">1x</text>
+      </g>
+      <g transform="translate(0,244)">
+        <rect x="0" y="0" width="185" height="32" fill="#C8484E"/>
+        <text x="92" y="22" font-family="'Inter',sans-serif" font-size="12" font-weight="700" fill="#FFFFFF" text-anchor="middle">提交</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Daily plan flow -->
+  <g transform="translate(60,560)">
+    <text font-family="'Fraunces',serif" font-weight="700" font-size="22" fill="#1A1A1A">每日 30 分钟个性化推荐</text>
+    <text y="22" font-family="'Inter',sans-serif" font-size="12" fill="#1A1A1A" opacity="0.6">基于你上周的能力雷达，由 AI 生成今日薄弱点强化路径</text>
+
+    <g transform="translate(0,42)">
+      <g>
+        <rect x="0" y="0" width="248" height="68" fill="#C8484E"/>
+        <text x="20" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="2">STEP 1 · 10 MIN</text>
+        <text x="20" y="52" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#FFFFFF">核心词汇 · 20 词</text>
+      </g>
+      <text x="260" y="34" font-family="'Fraunces',serif" font-size="32" fill="#1A1A1A">→</text>
+      <g transform="translate(300,0)">
+        <rect x="0" y="0" width="248" height="68" fill="#5B8DEF"/>
+        <text x="20" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="2">STEP 2 · 8 MIN</text>
+        <text x="20" y="52" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#FFFFFF">语法精讲 · 5 句</text>
+      </g>
+      <text x="560" y="34" font-family="'Fraunces',serif" font-size="32" fill="#1A1A1A">→</text>
+      <g transform="translate(600,0)">
+        <rect x="0" y="0" width="248" height="68" fill="#3A7D5C"/>
+        <text x="20" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="2">STEP 3 · 7 MIN</text>
+        <text x="20" y="52" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#FFFFFF">影子跟读 · 3 段</text>
+      </g>
+      <text x="860" y="34" font-family="'Fraunces',serif" font-size="32" fill="#1A1A1A">→</text>
+      <g transform="translate(900,0)">
+        <rect x="0" y="0" width="240" height="68" fill="#9B5DE5"/>
+        <text x="20" y="26" font-family="'Inter',sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" letter-spacing="2">STEP 4 · 5 MIN</text>
+        <text x="20" y="52" font-family="'Fraunces',serif" font-weight="700" font-size="18" fill="#FFFFFF">听写测验 · 5 句</text>
+      </g>
+    </g>
+  </g>
+</svg>
