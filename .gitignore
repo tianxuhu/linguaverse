@@ -43,3 +43,6 @@ Thumbs.db
 
 # Vite cache
 .vite/
+
+# TypeScript build info
+*.tsbuildinfo
